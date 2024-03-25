@@ -1,0 +1,32 @@
+﻿@page
+@using SmartComponents
+
+<h1>Smart Paste</h1>
+
+<form >
+    <div class="row">
+        <div class="mt-4">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name..." data-smartpaste-description="Name" />
+        </div>
+        <div class="mt-4">
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Age..." data-smartpaste-description="Age" />
+        </div>
+        <div class="mt-4">
+            <label for="add1">Address line 1</label>
+            <input type="text" id="add1" placeholder="Address line 1..." data-smartpaste-description="{Add line 1}"  />
+        </div>
+        <div class="mt-4">
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="City..." data-smartpaste-description="{City}" />
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <smart-paste-button default-icon>Autocomplete</smart-paste-button>
+    </div>
+
+    jon jones  123 Street Road London 23
+
+</form>

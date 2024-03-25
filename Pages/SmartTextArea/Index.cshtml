@@ -1,0 +1,15 @@
+﻿@page
+@using SmartComponents
+
+@{
+    string userRole = "Customer looking for product data";
+    string[] phrases = [
+        "Thank you for contacting us.",
+        "Have you tried product x"
+    ];
+
+}
+
+<h1>Smart Textarea</h1>
+
+<smart-textarea user-role="@userRole" user-phrases="@phrases" />
